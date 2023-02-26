@@ -1,0 +1,31 @@
+:root {
+    --text-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font: 600 3.5em 'Roboto', sans-serif;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h3.title {
+    font: 900 1em 'Roboto', sans-serif;
+    color: var(--text-color);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+  }
+  
+  
